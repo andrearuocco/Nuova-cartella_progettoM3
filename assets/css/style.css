@@ -1,4 +1,36 @@
+/* UTILITIES */
+:root {
+    --air-red :#FF3858;
+}
 
+/* HEADER */
+header.bg-white {
+    transition: all 1s ease-in-out .5s;
+}
+
+.big-searchbar {
+    opacity: 1;
+    height: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.big-searchbar.hide-me  {
+    opacity: 0;
+    height: 0;
+}
+
+.air-red-bg {
+    background-color: var(--air-red);
+}
+
+/* HOME */
+.hero-setion {
+    min-height: 75vh;
+    background-color: black;
+    background-image: url('../img/home.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 
 
