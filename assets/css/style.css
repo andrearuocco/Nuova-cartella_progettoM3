@@ -38,9 +38,22 @@ header.bg-white {
     background-color: black;
     border-radius: 50%;
 }
-
-
-
+/* MAIN */
+.titCard{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0;
+}
+.descrizione{
+    font-size: small;
+    color: grey;
+    margin-bottom: 0;
+}
+.voto svg{
+    width: 15px;
+    height: 15px;
+    margin-bottom: 5px;
+}
 
 
  
