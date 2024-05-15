@@ -39,6 +39,11 @@ header.bg-white {
     border-radius: 50%;
 }
 /* MAIN */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
 .titCard{
     font-weight: bold;
     font-size: larger;
