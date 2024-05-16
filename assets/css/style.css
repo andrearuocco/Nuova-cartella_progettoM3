@@ -3,25 +3,69 @@
     --air-red :#FF3858;
 }
 
+.air-red-bg {
+    background-color: var(--air-red);
+}
+
+.container-fluid-max {
+    max-width: 1920px;
+}
+
 /* HEADER */
+body.pagina-1 .navbar-nav li a,
+body.pagina-1 .navbar-nav li a.active {
+    color:white;
+}
+
+body.pagina-1 .dropdown-menu li a {color:initial;}
+
+body.pagina-1.scrolled .navbar-nav li a,
+body.pagina-1.scrolled .navbar-nav li a.active {
+    color:initial;
+}
+
+body .navbar-brand svg path {
+    transition: all .5s ease-in-out .5s;
+}
+
+body.scrolled .navbar-brand svg path {
+    fill:var(--air-red);
+    transition: all .5s ease-in-out .5s;
+}
+
 header.bg-white {
-    transition: all 1s ease-in-out .5s;
+    transition: all 1s ease-in-out .5s, transform 1s ease-in-out; 
 }
 
 .big-searchbar {
     opacity: 1;
     height: 100%;
-    transition: all 1s ease-in-out;
+    transform: translateY(0);
+    transition: all 1s ease-in-out, transform 1s ease-in-out;
 }
 
 .big-searchbar.hide-me  {
     opacity: 0;
     height: 0;
+    transform: translateY(-50px); 
 }
 
-.air-red-bg {
-    background-color: var(--air-red);
+.big-searchbar .form-wrapper {
+    border: 50%;
+    border: 1px solid #eee;
 }
+
+.form-element,
+.form-element form.rounded-0 {
+    background-color: #ffffff;
+    transition: background-color .5s ease-in-out;
+}
+
+.form-element:hover,
+.form-element:hover form.rounded-0 {
+    background-color: #eeeeee!important;
+}
+
 
 /* HOME */
 .hero-setion {
