@@ -76,13 +76,12 @@ header.bg-white {
     background-position: center;
 }
 
-.imm-an {
+/*.imm-an {
     height: 40px;
     width: 40px;
     background-color: black;
     border-radius: 50%;
-}
-
+}*/
 /* MAIN */
 .carousel-indicators [data-bs-target] {
     width: 10px;
@@ -104,9 +103,142 @@ header.bg-white {
     height: 15px;
     margin-bottom: 5px;
 }
+.card-img-top{
+    border-radius: 5%;
+}
+.card{
+    border: none;
+}
+.carosello{
+     /*  transition: transform 1s linear; */
+     transition: transform 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+
+.hidden{
+    transform: translateX(-110%);
+}
+
+/*andreaprimo.16/05*/
+.im-1 {
+    background-image: url(../img/propic.png);
+    background-size: cover;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.fa-person-swimming, .fa-key, .fa-location-dot {
+    font-size: 1.7em;
+}
+
+.p-icon{
+    padding: 0.25rem 0.25rem 0.75rem 0.75rem;
+}
+
+.p-and {
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.a-and {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: black;
+}
+
+#calendar {
+    max-width: 650px;
+    margin: 20px 0px;
+    color: black;
+  }
+
+  .stto-and {
+    top: 60px;
+    margin-bottom: 20px;
+  }
+
+  .and {
+    height: 1px;
+    width: 50px;
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .and-o {
+    height: 1px;
+    width: 50px;
+    background-color: black;
+    opacity: 1;
+  }
+
+  #firstblock {
+    max-width: 65%;
+  }
 
 
- 
+#form {
+    max-width: 35%;
+}
+
+.a-link {
+    text-decoration: none;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: black;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.bgand-host {
+    background-color: bisque;
+}
+
+.luoghi{
+    margin:20px
+  }
+  .luoghi a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .luoghi a span {
+    color: black;
+  }
+
+  .tap-link{
+    color: black !important;
+  }
+
+  #footer{
+    margin-top: 40px;
+    background-color: rgb(226, 225, 224);
+  }
+
+  .footerClass{
+    text-decoration: none;
+    color: gray;
+  }
+  .footerClass span{
+    color: black;
+  }
+
+  footer{
+    padding: 10px;
+
+  }
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer span{
+    padding: 3px;
+  }
 
 
 
