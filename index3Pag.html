@@ -58,11 +58,11 @@
                   <a class="nav-link" href="#"><i class="bi bi-globe"></i></a>
                 </li>
                 <li class="nav-item d-flex rounded-pill  border border-secondary-subtle">
-                  <div class="dropdown-center">
+                  <div class="dropdown">
                     <button class="btn " type="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="bi bi-list"></i>
                     </button>
-                    <ul class="dropdown-menu p-0 ">
+                    <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-0 ">
                       <li><a class="dropdown-item" href="#">Registrati</a></li>
                       <li><a class="dropdown-item" href="#">Accedi</a></li>
                       <li><a class="dropdown-item p-0" href="#">
@@ -75,7 +75,7 @@
                   </div>
                   <a href="#" class="p-1">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation"
-                      focusable="false" style="display: block; height: 32px; width: 32px; fill: currentcolor;">
+                      focusable="false" style="display: block; height: 32px; width: 32px; fill: grey;">
                       <path
                         d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z">
                       </path>
@@ -95,16 +95,16 @@
       </nav>
       <div class="big-searchbar d-flex justify-content-center w-100">
         <div class="form-wrapper rounded-pill bg-white  mb-4">
-          <form action="post" class="d-flex">
+          <form action="post" class="d-flex form-container">
             <div class="form-element rounded-pill d-flex flex-column px-4 py-2">
               <label for="dove"><small>Dove</small></label>
               <input type="text" class="border-0" placeholder="Cerca destinazioni">
             </div>
-            <div class="form-element rounded-pill d-flex flex-column p-2">
+            <div class="form-element rounded-pill d-flex flex-column px-4 py-2">
               <label for="check-in"><small>Check-in</small></label>
               <input type="text" class="border-0" placeholder="Aggiungi date">
             </div>
-            <div class="form-element rounded-pill d-flex flex-column p-2">
+            <div class="form-element rounded-pill d-flex flex-column px-4 py-2">
               <label for="check-out"><small>Check-out</small></label>
               <input type="text" class="border-0" placeholder="Aggiungi date">
             </div>
@@ -124,354 +124,359 @@
 
     </header>
   </div>
-  <div class="container mt-5">
-    <h2><span>Casa con piscina ed aria condizionata</h2>
+  <main>
 
-    <div class="row">
-      <div class="col-6">
-        <img src="./assets/img/1.webp" alt="bnbplace" class="w-100 h-100" />
-      </div>
 
-      <div class="col-6 row d-flex">
-        <div class="col-6 pb-4">
-          <img src="./assets/img/2.webp" alt="bnbplace" class="w-100 h-100" />
-        </div>
+    <div class="container mt-5">
+      <h2><span>Casa con piscina ed aria condizionata</h2>
 
-        <div class="col-6 pb-4">
-          <img src="./assets/img/3.webp" alt="bnbplace" class="w-100 h-100" />
-        </div>
-
+      <div class="row">
         <div class="col-6">
-          <img src="./assets/img/4.webp" alt="bnbplace" class="w-100 h-100" />
+          <img src="./assets/img/1.webp" alt="bnbplace" class="w-100 h-100" />
         </div>
 
-        <div class="col-6">
-          <img src="./assets/img/5.webp" alt="bnbplace" class="w-100 h-100" />
+        <div class="col-6 row d-flex">
+          <div class="col-6 pb-4">
+            <img src="./assets/img/2.webp" alt="bnbplace" class="w-100 h-100" />
+          </div>
+
+          <div class="col-6 pb-4">
+            <img src="./assets/img/3.webp" alt="bnbplace" class="w-100 h-100" />
+          </div>
+
+          <div class="col-6">
+            <img src="./assets/img/4.webp" alt="bnbplace" class="w-100 h-100" />
+          </div>
+
+          <div class="col-6">
+            <img src="./assets/img/5.webp" alt="bnbplace" class="w-100 h-100" />
+          </div>
         </div>
-      </div>
 
-    </div>
-  </div>
-  <div class="d-flex justify-content-between container border-bottom">
-    <div id="firstblock" class="me-2">
-
-      <div class="border-bottom pt-3">
-        <h3 class="pb-0 mb-0">Positano, Italia. Castello</h3>
-        <ul class="d-flex list-unstyled p-0 m-0">
-          <li class="pe-1">6 ospiti</li>
-          <li class="pe-1">3 camere da letto</li>
-          <li>3 bagni</li>
-        </ul>
-        <ul class="d-flex list-unstyled p-0">
-          <li class="pe-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-star-fill" viewBox="0 0 16 16">
-              <path
-                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
-            </svg></li>
-          <li class="pe-1">5.0</li>
-          <li>6 recensioni</li>
-        </ul>
-      </div>
-
-      <ul class="d-flex flex-column list-unstyled">
-        <li class="pt-2 pb-2 border-bottom">
-
-          <ul class="d-flex align-items-stretch list-unstyled">
-            <li>
-              <div class="im-1"></div>
-
-            </li>
-
-            <li class="ps-3">
-              <h4 class="pb-0 mb-0">Nome dell'host: Roberta Marina</h4>
-              <p class="mb-0">Superhost, 9 anni di esperienza come host</p>
-            </li>
-          </ul>
-        </li>
-        <li class="pt-2 pb-2">
-          <ul class="d-flex align-items-stretch list-unstyled">
-            <li>
-              <i class="p-icon fa-solid fa-location-dot"></i>
-
-            </li>
-
-            <li class="ps-4">
-              <h4 class="pb-0 mb-0">Ottima posizione</h4>
-              <p class="mb-0">Il 100% degli ospiti recenti ha valutato la posizione con 5 stelle.</p>
-            </li>
-          </ul>
-        </li>
-        <li class="pt-2 pb-2">
-          <ul class="d-flex align-items-stretch list-unstyled">
-            <li>
-
-              <i class="p-icon fa-solid fa-key"></i>
-            </li>
-
-            <li class="ps-3">
-              <h4 class="pb-0 mb-0">Ottima esperienza di check-in</h4>
-              <p class="mb-0">Il 100% degli ospiti ha valutato con 5 stelle la procedura di check-in.</p>
-            </li>
-          </ul>
-        </li>
-        <li class="pt-2 pb-2 border-bottom">
-          <ul class="d-flex align-items-stretch list-unstyled">
-            <li>
-              <i class="p-icon fa-solid fa-person-swimming"></i>
-            </li>
-
-            <li class="ps-2">
-              <h4 class="pb-0 mb-0">Tuffati</h4>
-              <p class="mb-0">Questo è uno dei pochi alloggi in zona dotati di piscina.</p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-      <div class="p-and pt-0 mt-1 mb-1 pb-0 ps-2">
-        <p class="pb-0 mb-0">Alcune informazioni sono state tradotte automaticamente.</p>
-        <p class="pt-0 mt-0">Mostra il testo nella lingua originale</p>
-      </div>
-      <p class="ps-2">Dimora lussuosa nella storica Torre del '500 in spiaggia a Positano per una meravigliosa vacanza
-        ricca di
-        un fascino indimenticabile. Castello indipendente e affacciato sul mare, può ospitare fino a 6 persone.</p>
-      <p class="ps-2">Lo spazio</p>
-      <p class="ps-2">Ideale per una famiglia o gruppo di 6 persone che vuole vivere Positano di giorno e di...</p>
-
-      <div class="border-bottom pt-2 pb-3 border-top">
-        <h4 class="ps-2">Cosa troverai</h4>
-        <ul class="d-flex list-unstyled ps-2">
-          <li class="pe-5">
-            <ul class="list-unstyled">
-              <li><i class="fa-solid fa-umbrella-beach pe-1"></i>Vista sulla baia</li>
-              <li><i class="fa-solid fa-square-parking pe-1"></i> Accesso alla spiaggia (sul lungomare)</li>
-              <li><i class="fa-solid fa-wifi pe-1"></i>Wi-fi</li>
-              <li><i class="fa-solid fa-bath pe-1"></i> Lavatrice</li>
-              <li><i class="fa-solid fa-eye pe-1"></i> Patio o balcone privato</li>
-            </ul>
-          </li>
-
-          <li>
-            <ul class="list-unstyled">
-              <li><i class="fa-solid fa-eye pe-1"></i>Vista sul panorama urbano</li>
-              <li><i class="fa-solid fa-wifi pe-1"></i>Cucina</li>
-              <li><i class="fa-solid fa-bath pe-1"></i> TV via cavo standard</li>
-              <li><i class="fa-solid fa-square-parking pe-1"></i> Aria condizionata</li>
-              <li><i class="fa-solid fa-umbrella-beach pe-1"></i>Deposito bagagli consentito</li>
-            </ul>
-          </li>
-        </ul>
-        <a href="" class="ms-2 a-and">Mostra tutti i servizi</a>
-      </div>
-
-      <div>
-        <h4 class="pt-2 pb-0 mb-0 ps-2">5 notti a Positano</h4>
-        <p class="pt-0 mt-0 ps-2">17 marzo - 22 marzo</p>
-        <div id="calendar" class="ps-2"></div>
       </div>
     </div>
-    <div id="form" class="pe-3 pt-3">
-      <form class="position-sticky sticky-top stto-and" />
-      <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-  </div>
-  <div class="container">
-    <h4 class="text-center pt-4">Amato dagli ospiti</h4>
-    <p class="text-center">Uno degli alloggi più amati su Airbnb in base a valutazioni, recensioni e affidabilità</p>
-    <ul class="d-flex list-unstyled justify-content-between border-bottom pb-4">
+    <div class="d-flex justify-content-between container border-bottom">
+      <div id="firstblock" class="me-2">
 
-      <li>
-        <p>Valutazione complessiva</p>
+        <div class="border-bottom pt-3">
+          <h3 class="pb-0 mb-0">Positano, Italia. Castello</h3>
+          <ul class="d-flex list-unstyled p-0 m-0">
+            <li class="pe-1">6 ospiti</li>
+            <li class="pe-1">3 camere da letto</li>
+            <li>3 bagni</li>
+          </ul>
+          <ul class="d-flex list-unstyled p-0">
+            <li class="pe-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+              </svg></li>
+            <li class="pe-1">5.0</li>
+            <li>6 recensioni</li>
+          </ul>
+        </div>
+
         <ul class="d-flex flex-column list-unstyled">
-          <li class="d-flex align-items-center">5<div class="and ps-5 pe-5 ms-2"></div>
+          <li class="pt-2 pb-2 border-bottom">
+
+            <ul class="d-flex align-items-stretch list-unstyled">
+              <li>
+                <div class="im-1"></div>
+
+              </li>
+
+              <li class="ps-3">
+                <h4 class="pb-0 mb-0">Nome dell'host: Roberta Marina</h4>
+                <p class="mb-0">Superhost, 9 anni di esperienza come host</p>
+              </li>
+            </ul>
           </li>
-          <li class="d-flex align-items-center">4<div class="pe-5 and-o ps-5 ms-2"></div>
+          <li class="pt-2 pb-2">
+            <ul class="d-flex align-items-stretch list-unstyled">
+              <li>
+                <i class="p-icon fa-solid fa-location-dot"></i>
+
+              </li>
+
+              <li class="ps-4">
+                <h4 class="pb-0 mb-0">Ottima posizione</h4>
+                <p class="mb-0">Il 100% degli ospiti recenti ha valutato la posizione con 5 stelle.</p>
+              </li>
+            </ul>
           </li>
-          <li class="d-flex align-items-center">3<div class="pe-5 and ps-5 ms-2"></div>
+          <li class="pt-2 pb-2">
+            <ul class="d-flex align-items-stretch list-unstyled">
+              <li>
+
+                <i class="p-icon fa-solid fa-key"></i>
+              </li>
+
+              <li class="ps-3">
+                <h4 class="pb-0 mb-0">Ottima esperienza di check-in</h4>
+                <p class="mb-0">Il 100% degli ospiti ha valutato con 5 stelle la procedura di check-in.</p>
+              </li>
+            </ul>
           </li>
-          <li class="d-flex align-items-center">2<div class="pe-5 and ps-5 ms-2"></div>
-          </li>
-          <li class="d-flex align-items-center">1<div class="pe-5 ps-5 ms-2 and"></div>
+          <li class="pt-2 pb-2 border-bottom">
+            <ul class="d-flex align-items-stretch list-unstyled">
+              <li>
+                <i class="p-icon fa-solid fa-person-swimming"></i>
+              </li>
+
+              <li class="ps-2">
+                <h4 class="pb-0 mb-0">Tuffati</h4>
+                <p class="mb-0">Questo è uno dei pochi alloggi in zona dotati di piscina.</p>
+              </li>
+            </ul>
           </li>
         </ul>
-      </li>
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Pulizia</p>
-          <p>5.0</p>
-        </div>
-        <i class="fa-solid fa-pump-medical"></i>
-      </li>
 
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Precisione</p>
-          <p>4.4</p>
+        <div class="p-and pt-0 mt-1 mb-1 pb-0 ps-2">
+          <p class="pb-0 mb-0">Alcune informazioni sono state tradotte automaticamente.</p>
+          <p class="pt-0 mt-0">Mostra il testo nella lingua originale</p>
         </div>
-        <i class="fa-solid fa-thumbs-up"></i>
-      </li>
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Check-in</p>
-          <p>5.0</p>
-        </div>
-        <i class="fa-solid fa-keyboard"></i>
-      </li>
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Comunicazione</p>
-          <p>4.9</p>
-        </div>
-        <i class="fa-regular fa-comment"></i>
-      </li>
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Posizione</p>
-          <p>5.0</p>
-        </div>
-        <i class="fa-solid fa-book"></i>
-      </li>
-      <li class="d-flex flex-column justify-content-between border-start ps-4">
-        <div>
-          <p>Qualità/Prezzo</p>
-          <p>5.0</p>
-        </div>
-        <i class="fa-solid fa-tag"></i>
-      </li>
+        <p class="ps-2">Dimora lussuosa nella storica Torre del '500 in spiaggia a Positano per una meravigliosa vacanza
+          ricca di
+          un fascino indimenticabile. Castello indipendente e affacciato sul mare, può ospitare fino a 6 persone.</p>
+        <p class="ps-2">Lo spazio</p>
+        <p class="ps-2">Ideale per una famiglia o gruppo di 6 persone che vuole vivere Positano di giorno e di...</p>
 
+        <div class="border-bottom pt-2 pb-3 border-top">
+          <h4 class="ps-2">Cosa troverai</h4>
+          <ul class="d-flex list-unstyled ps-2">
+            <li class="pe-5">
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-umbrella-beach pe-1"></i>Vista sulla baia</li>
+                <li><i class="fa-solid fa-square-parking pe-1"></i> Accesso alla spiaggia (sul lungomare)</li>
+                <li><i class="fa-solid fa-wifi pe-1"></i>Wi-fi</li>
+                <li><i class="fa-solid fa-bath pe-1"></i> Lavatrice</li>
+                <li><i class="fa-solid fa-eye pe-1"></i> Patio o balcone privato</li>
+              </ul>
+            </li>
 
-    </ul>
-    <div class="d-flex">
-      <ul class="pt-5 pb-5 pe-5 list-unstyled">
-        <li class="d-flex">
-          <div class="im-1"></div>
-          <div class="ps-2">
-            <h6 class="pb-0 mb-0">Guido</h6>
-            <p class="pt-0 mt-0">Firenze, Italia <span>gennaio 2024</span></p>
+            <li>
+              <ul class="list-unstyled">
+                <li><i class="fa-solid fa-eye pe-1"></i>Vista sul panorama urbano</li>
+                <li><i class="fa-solid fa-wifi pe-1"></i>Cucina</li>
+                <li><i class="fa-solid fa-bath pe-1"></i> TV via cavo standard</li>
+                <li><i class="fa-solid fa-square-parking pe-1"></i> Aria condizionata</li>
+                <li><i class="fa-solid fa-umbrella-beach pe-1"></i>Deposito bagagli consentito</li>
+              </ul>
+            </li>
+          </ul>
+          <a href="" class="ms-2 a-and">Mostra tutti i servizi</a>
+        </div>
+
+        <div>
+          <h4 class="pt-2 pb-0 mb-0 ps-2">5 notti a Positano</h4>
+          <p class="pt-0 mt-0 ps-2">17 marzo - 22 marzo</p>
+          <div id="calendar" class="ps-2"></div>
+        </div>
+      </div>
+      <div id="form" class="pe-3 pt-3">
+        <form class="position-sticky sticky-top stto-and" />
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="container">
+      <h4 class="text-center pt-4">Amato dagli ospiti</h4>
+      <p class="text-center">Uno degli alloggi più amati su Airbnb in base a valutazioni, recensioni e affidabilità</p>
+      <ul class="d-flex list-unstyled justify-content-between border-bottom pb-4">
+
+        <li>
+          <p>Valutazione complessiva</p>
+          <ul class="d-flex flex-column list-unstyled">
+            <li class="d-flex align-items-center">5<div class="and ps-5 pe-5 ms-2"></div>
+            </li>
+            <li class="d-flex align-items-center">4<div class="pe-5 and-o ps-5 ms-2"></div>
+            </li>
+            <li class="d-flex align-items-center">3<div class="pe-5 and ps-5 ms-2"></div>
+            </li>
+            <li class="d-flex align-items-center">2<div class="pe-5 and ps-5 ms-2"></div>
+            </li>
+            <li class="d-flex align-items-center">1<div class="pe-5 ps-5 ms-2 and"></div>
+            </li>
+          </ul>
+        </li>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Pulizia</p>
+            <p>5.0</p>
           </div>
+          <i class="fa-solid fa-pump-medical"></i>
         </li>
 
-        <li class="pb-3">Siamo stati in questa villa di Manciano per passare gli ultimi giorni dell’anno e siamo stati
-          davvero bene!
-          La casa è spaziosa e a tutto il necessario per rilassarsi...</li>
-        <li><a href="" class="a-link">Mostra altro</a></li>
-      </ul>
-      <ul class="p-5 list-unstyled">
-        <li class="d-flex">
-          <div class="im-1"></div>
-          <div class="ps-2">
-            <h6 class="pb-0 mb-0">Alfredo</h6>
-            <p class="pt-0 mt-0">Firenze, Italia <span>gennaio 2024</span></p>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Precisione</p>
+            <p>4.4</p>
           </div>
+          <i class="fa-solid fa-thumbs-up"></i>
         </li>
-        <li class="pb-3">Siamo stati in questa villa di Manciano per passare gli ultimi giorni dell’anno e siamo stati
-          davvero bene!
-          La casa è spaziosa e a tutto il necessario per rilassarsi...</li>
-        <li><a href="" class="a-link">Mostra altro</a></li>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Check-in</p>
+            <p>5.0</p>
+          </div>
+          <i class="fa-solid fa-keyboard"></i>
+        </li>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Comunicazione</p>
+            <p>4.9</p>
+          </div>
+          <i class="fa-regular fa-comment"></i>
+        </li>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Posizione</p>
+            <p>5.0</p>
+          </div>
+          <i class="fa-solid fa-book"></i>
+        </li>
+        <li class="d-flex flex-column justify-content-between border-start ps-4">
+          <div>
+            <p>Qualità/Prezzo</p>
+            <p>5.0</p>
+          </div>
+          <i class="fa-solid fa-tag"></i>
+        </li>
+
+
       </ul>
+      <div class="d-flex">
+        <ul class="pt-5 pb-5 pe-5 list-unstyled">
+          <li class="d-flex">
+            <div class="im-1"></div>
+            <div class="ps-2">
+              <h6 class="pb-0 mb-0">Guido</h6>
+              <p class="pt-0 mt-0">Firenze, Italia <span>gennaio 2024</span></p>
+            </div>
+          </li>
 
+          <li class="pb-3">Siamo stati in questa villa di Manciano per passare gli ultimi giorni dell’anno e siamo stati
+            davvero bene!
+            La casa è spaziosa e a tutto il necessario per rilassarsi...</li>
+          <li><a href="" class="a-link">Mostra altro</a></li>
+        </ul>
+        <ul class="p-5 list-unstyled">
+          <li class="d-flex">
+            <div class="im-1"></div>
+            <div class="ps-2">
+              <h6 class="pb-0 mb-0">Alfredo</h6>
+              <p class="pt-0 mt-0">Firenze, Italia <span>gennaio 2024</span></p>
+            </div>
+          </li>
+          <li class="pb-3">Siamo stati in questa villa di Manciano per passare gli ultimi giorni dell’anno e siamo stati
+            davvero bene!
+            La casa è spaziosa e a tutto il necessario per rilassarsi...</li>
+          <li><a href="" class="a-link">Mostra altro</a></li>
+        </ul>
+
+      </div>
+      <p class="pb-4 border-bottom">Scopri di più sulle recensioni</p>
+
+      <div class="pb-3 mb-3">
+        <h4 class="ps-2">Dove sarai</h4>
+        <p class="ps-2">Paciano, Umbria, Italia</p>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.9765399536295!2d12.4773935!3d41.871851199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6173fb8c8ea7%3A0x1a413c9507f97391!2sEPICODE!5e0!3m2!1sit!2sit!4v1715794480561!5m2!1sit!2sit"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="ps-2 br-10"></iframe>
+      </div>
     </div>
-    <p class="pb-4 border-bottom">Scopri di più sulle recensioni</p>
-
-    <div class="pb-3 mb-3">
-      <h4 class="ps-2">Dove sarai</h4>
-      <p class="ps-2">Paciano, Umbria, Italia</p>
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.9765399536295!2d12.4773935!3d41.871851199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6173fb8c8ea7%3A0x1a413c9507f97391!2sEPICODE!5e0!3m2!1sit!2sit!4v1715794480561!5m2!1sit!2sit"
-        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="ps-2 br-10"></iframe>
-    </div>
-  </div>
 
 
 
 
-  <div class="container">
-    <h4 class="ps-2">Informazioni sull'Host</h4>
-    <div class="bgand-host d-flex p-3 ms-2 br-10 mb-5">
-      <div class="br-10 bg-white d-flex justify-content-between align-items-center">
-        <div class="ps-4 d-flex flex-column align-items-center">
-          <div class="im-1"></div>
-          <h6 class="pb-0 mb-0">Mgm Srl</h6>
-          <p class="pt-0 mt-0">Host</p>
+    <div class="container">
+      <h4 class="ps-2">Informazioni sull'Host</h4>
+      <div class="bgand-host d-flex p-3 ms-2 br-10 mb-5">
+        <div class="br-10 bg-white d-flex justify-content-between align-items-center">
+          <div class="ps-4 d-flex flex-column align-items-center">
+            <div class="im-1"></div>
+            <h6 class="pb-0 mb-0">Mgm Srl</h6>
+            <p class="pt-0 mt-0">Host</p>
+          </div>
+          <ul class="d-flex flex-column pe-4">
+            <li class="pt-1 d-flex flex-column border-bottom">
+              <h6>2</h6>
+              <p>recensioni</p>
+            </li>
+            <li class="pt-1 d-flex flex-column border-bottom">
+              <h6>5,0</h6>
+              <p>valutazione</p>
+            </li>
+            <li class="border-bottom pt-1 d-flex flex-column">
+              <h6>11</h6>
+              <p>Mesi da host</p>
+            </li>
+          </ul>
         </div>
-        <ul class="d-flex flex-column pe-4">
-          <li class="pt-1 d-flex flex-column border-bottom">
-            <h6>2</h6>
-            <p>recensioni</p>
+        <ul class="list-unstyled ps-5 d-flex flex-column align-content-center">
+          <li>
+            <h6>Dettagli dell'host</h6>
           </li>
-          <li class="pt-1 d-flex flex-column border-bottom">
-            <h6>5,0</h6>
-            <p>valutazione</p>
+          <li>
+            <p class="pb-0 mb-0">Tasso di risposta 100%</p>
+            <p class="pb-0 mb-0">Risponde entro un'ora</p>
           </li>
-          <li class="border-bottom pt-1 d-flex flex-column">
-            <h6>11</h6>
-            <p>Mesi da host</p>
-          </li>
+          <li class="pt-4 pb-4"><button type="button" class="bg-black text-white br-10">Invia un messaggio
+              all'host</button></li>
+          <li>Host professionista</li>
+          <li>Numero di registrazione: 054036AGR1G07778</li>
         </ul>
       </div>
-      <ul class="list-unstyled ps-5 d-flex flex-column align-content-center">
-        <li>
-          <h6>Dettagli dell'host</h6>
-        </li>
-        <li>
-          <p class="pb-0 mb-0">Tasso di risposta 100%</p>
-          <p class="pb-0 mb-0">Risponde entro un'ora</p>
-        </li>
-        <li class="pt-4 pb-4"><button type="button" class="bg-black text-white br-10">Invia un messaggio
-            all'host</button></li>
-        <li>Host professionista</li>
-        <li>Numero di registrazione: 054036AGR1G07778</li>
-      </ul>
+
+      <h4 class="pb-3 ps-2">Da sapere</h4>
+      <div class="d-flex align-items-start">
+        <ul class="ps-2 list-unstyled">
+          <li>
+            <h6>Regole della casa</h6>
+          </li>
+          <li>Check-in dopo le ore 16:00</li>
+          <li>Check-out entro le ore 10:00</li>
+          <li>Massimo 8 ospiti</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>
+            <h6>Alloggio e sicurezza</h6>
+          </li>
+          <li>Rilevatore di monossido di carbonio non segnalato</li>
+          <li>Allarme antincendio non segnalato</li>
+          <li>Piscina o vasca idromassaggio senza cancellata o serratura</li>
+        </ul>
+        <ul class="list-unstyled">
+          <li>
+            <h6>Termini di cancellazione</h6>
+          </li>
+          <li>Cancellazione gratuita entro il giorno 25 giu.</li>
+          <li>Leggi i termini di cancellazione completi dell'host, che si applicano anche in caso di malattia o disagi
+            legati alla pandemia di COVID-19.</li>
+        </ul>
+      </div>
     </div>
 
-    <h4 class="pb-3 ps-2">Da sapere</h4>
-    <div class="d-flex align-items-start">
-      <ul class="ps-2 list-unstyled">
-        <li>
-          <h6>Regole della casa</h6>
-        </li>
-        <li>Check-in dopo le ore 16:00</li>
-        <li>Check-out entro le ore 10:00</li>
-        <li>Massimo 8 ospiti</li>
-      </ul>
-      <ul class="list-unstyled">
-        <li>
-          <h6>Alloggio e sicurezza</h6>
-        </li>
-        <li>Rilevatore di monossido di carbonio non segnalato</li>
-        <li>Allarme antincendio non segnalato</li>
-        <li>Piscina o vasca idromassaggio senza cancellata o serratura</li>
-      </ul>
-      <ul class="list-unstyled">
-        <li>
-          <h6>Termini di cancellazione</h6>
-        </li>
-        <li>Cancellazione gratuita entro il giorno 25 giu.</li>
-        <li>Leggi i termini di cancellazione completi dell'host, che si applicano anche in caso di malattia o disagi
-          legati alla pandemia di COVID-19.</li>
-      </ul>
-    </div>
-  </div>
+  </main>
   <section id="footer">
- 
-  
-  
+
+
+
     <footer>
       <hr>
       <section class="container-fluid">
@@ -537,20 +542,28 @@
           </div>
           <div class="col-2 col-sm-2"></div>
           <div class="col-2 col-sm-2">
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
-              <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
-            </svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
+              </svg></span>
             <a href=""><span>Italiano(IT)</span></a>
             <a href=""><span>€ EUR</span></a>
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-            </svg></span>
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
-            </svg></span>
-            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-            </svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+              </svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-instagram" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></span>
           </div>
         </div>
       </section>
