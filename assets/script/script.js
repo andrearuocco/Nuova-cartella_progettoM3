@@ -15,7 +15,7 @@ window.addEventListener('scroll', ()=>{
 })
 
 
-
+/* SCOMPARSA/COMPARSA CAROSELLI CON ANIMAZIONE */
 window.addEventListener('scroll', addSection) // aggiungo eventlistener sull'evento scroll 
 
 function addSection() { //creo una funzione che mi dica a che altezza l'utente è arrivato nello scroll verticale della pagina 
