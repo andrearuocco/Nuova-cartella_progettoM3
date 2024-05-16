@@ -60,6 +60,20 @@ header.bg-white {
     height: 15px;
     margin-bottom: 5px;
 }
+.card-img-top{
+    border-radius: 5%;
+}
+.card{
+    border: none;
+}
+.carosello{
+     /*  transition: transform 1s linear; */
+     transition: transform 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+}
+
+.hidden{
+    transform: translateX(-110%);
+}
 
 
  
