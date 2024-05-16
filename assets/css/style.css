@@ -153,7 +153,48 @@ header.bg-white {
 .bgand-host {
     background-color: bisque;
 }
- 
+
+.luoghi{
+    margin:20px
+  }
+  .luoghi a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .luoghi a span {
+    color: black;
+  }
+
+  .tap-link{
+    color: black !important;
+  }
+
+  #footer{
+    margin-top: 40px;
+    background-color: rgb(226, 225, 224);
+  }
+
+  .footerClass{
+    text-decoration: none;
+    color: gray;
+  }
+  .footerClass span{
+    color: black;
+  }
+
+  footer{
+    padding: 10px;
+
+  }
+  footer a{
+    text-decoration: none;
+    color: black;
+  }
+
+  footer span{
+    padding: 3px;
+  }
 
 
 
