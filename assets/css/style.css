@@ -32,12 +32,12 @@ header.bg-white {
     background-position: center;
 }
 
-.imm-an {
+/*.imm-an {
     height: 40px;
     width: 40px;
     background-color: black;
     border-radius: 50%;
-}
+}*/
 /* MAIN */
 .carousel-indicators [data-bs-target] {
     width: 10px;
@@ -59,12 +59,4 @@ header.bg-white {
     height: 15px;
     margin-bottom: 5px;
 }
-
-
- 
-
-
-
-
-
 
