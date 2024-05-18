@@ -210,7 +210,7 @@ header.bg-white {
     opacity: 1;
 }
 
-#firstblock {
+/*#firstblock {
     max-width: 65%;
 }
 
@@ -218,7 +218,7 @@ header.bg-white {
 #form {
     max-width: 35%;
    
-}
+}*/
 
 .a-link {
     text-decoration: none;
@@ -337,18 +337,20 @@ body {
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
 
-.br-img {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
+@media only screen and (min-width:768px) {
+    .br-img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
 
-.br-img-1 {
-    border-top-right-radius: 20px;
-    
-}
+    .br-img-1 {
+        border-top-right-radius: 20px;
 
-.br-img-2 {
-    border-bottom-right-radius: 20px;
+    }
+
+    .br-img-2 {
+        border-bottom-right-radius: 20px;
+    }
 }
 
 .text-and {
@@ -356,72 +358,15 @@ body {
     opacity: 0.6;
 }
 
-.fa-pump-medical, .fa-keyboard, .fa-comment, .fa-book, .fa-tag, .fa-thumbs-up {
+.fa-pump-medical,
+.fa-keyboard,
+.fa-comment,
+.fa-book,
+.fa-tag,
+.fa-thumbs-up {
     font-size: 1.4rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bord-n {
+    border: none !important;
+}
