@@ -13,7 +13,18 @@
 
 <body class="pagina-1">
   <div class="header-wrapper ">
-    <header class="border-end fixed-top ">
+    <header id="mobile-header" class="d-lg-none d-flex justify-content-between p-3 ">
+      <div class="fake-form w-100 d-flex rounded-pill px-2 py-1">
+        <button type="button" class="btn e rounded-circle"><i
+          class="bi bi-search "></i></button>
+        <div class="fakeinput-wrapper d-flex flex-column">
+          <span class="fake-label"><small>Dove si va?</small></span>
+          <span class="fake-input"><small><small>Ovunque...</small></small></span>
+        </div>
+      </div>
+      <a href="#" class="btn mobile-settings rounded-circle p-2 border border-secondary"><i class="bi bi-sliders"></i></a>
+    </header>
+    <header class="border-end fixed-top d-none d-lg-block">
       <nav class="navbar navbar-expand-lg" id="main-nav">
         <div class="container-fluid ">
 
