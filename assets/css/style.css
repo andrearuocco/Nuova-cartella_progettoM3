@@ -293,7 +293,72 @@ footer span {
     background-image: url(../img/right.svg);
 }
 
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: var(--air-red);
+    outline: 0;
+    box-shadow: 0 0 0 .1rem var(--air-red);
+}
 
+.and-form-1 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.and-form-2 {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 7px;
+}
+
+.and-form-3 {
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 0px;
+}
+
+.form-select:focus {
+    border-color: var(--air-red);
+    box-shadow: 0 0 0 .1rem var(--air-red);
+}
+
+.form-an {
+    box-shadow: 0 0 0 .1rem var(--air-red);
+    border-radius: 10px;
+}
+
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+
+.br-img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.br-img-1 {
+    border-top-right-radius: 20px;
+    
+}
+
+.br-img-2 {
+    border-bottom-right-radius: 20px;
+}
+
+.text-and {
+    color: var(--air-red);
+    opacity: 0.6;
+}
+
+.fa-pump-medical, .fa-keyboard, .fa-comment, .fa-book, .fa-tag, .fa-thumbs-up {
+    font-size: 1.4rem;
+}
 
 
 
