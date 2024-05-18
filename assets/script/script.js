@@ -120,3 +120,5 @@ flatpickr("#checkin-checkout", {
   locale: "it",
   minDate: "today"
 });
+
+

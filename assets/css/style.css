@@ -1,8 +1,6 @@
-
-
 /* UTILITIES */
 :root {
-    --air-red :#FF3858;
+    --air-red: #FF3858;
 }
 
 .air-red-bg {
@@ -16,14 +14,16 @@
 /* HEADER */
 body.pagina-1 .navbar-nav li a,
 body.pagina-1 .navbar-nav li a.active {
-    color:white;
+    color: white;
 }
 
-body.pagina-1 .dropdown-menu li a {color:initial;}
+body.pagina-1 .dropdown-menu li a {
+    color: initial;
+}
 
 body.pagina-1.scrolled .navbar-nav li a,
 body.pagina-1.scrolled .navbar-nav li a.active {
-    color:initial;
+    color: initial;
 }
 
 body .navbar-brand svg path {
@@ -31,12 +31,12 @@ body .navbar-brand svg path {
 }
 
 body.scrolled .navbar-brand svg path {
-    fill:var(--air-red);
+    fill: var(--air-red);
     transition: all .5s ease-in-out .5s;
 }
 
 header.bg-white {
-    transition: all 1s ease-in-out .5s, transform 1s ease-in-out; 
+    transition: all 1s ease-in-out .5s, transform 1s ease-in-out;
 }
 
 .big-searchbar {
@@ -44,13 +44,13 @@ header.bg-white {
     height: 100%;
     transform: translateY(0);
     transition: all 1s ease-in-out, transform 1s ease-in-out;
-    
+
 }
 
-.big-searchbar.hide-me  {
+.big-searchbar.hide-me {
     opacity: 0;
     height: 0;
-    transform: translateY(-50px); 
+    transform: translateY(-50px);
 }
 
 .big-searchbar .form-wrapper {
@@ -66,27 +66,33 @@ header.bg-white {
 
 .form-element:hover,
 .form-element:hover form.rounded-0 {
-    background-color: #eeeeee!important;
+    background-color: #eeeeee !important;
 }
 
 /* mobile header */
-#mobile-header {gap:1rem;}
+#mobile-header {
+    gap: 1rem;
+}
 
 .fake-form {
     box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
     gap: 1rem;
 }
 
-.fake-label {line-height: .75rem;}
+.fake-label {
+    line-height: .75rem;
+}
 
-.fake-input {color: #ccc;}
+.fake-input {
+    color: #ccc;
+}
 
 .mobile-settings {
-    width:53px!important;
+    width: 53px !important;
     height: 48px;
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* HOME */
@@ -110,33 +116,39 @@ align-items: center;
     height: 10px;
     border-radius: 50%;
 }
-.titCard{
+
+.titCard {
     font-weight: bold;
     font-size: larger;
     margin-bottom: 0;
 }
-.descrizione{
+
+.descrizione {
     font-size: small;
     color: grey;
     margin-bottom: 0;
 }
-.voto svg{
+
+.voto svg {
     width: 15px;
     height: 15px;
     margin-bottom: 5px;
 }
-.card-img-top{
+
+.card-img-top {
     border-radius: 5%;
 }
-.card{
+
+.card {
     border: none;
 }
-.carosello{
-     /*  transition: transform 1s linear; */
-     transition: transform 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
+
+.carosello {
+    /*  transition: transform 1s linear; */
+    transition: transform 1s cubic-bezier(0.445, 0.05, 0.55, 0.95)
 }
 
-.hidden{
+.hidden {
     transform: translateX(-110%);
 }
 
@@ -149,11 +161,13 @@ align-items: center;
     width: 45px;
 }
 
-.fa-person-swimming, .fa-key, .fa-location-dot {
+.fa-person-swimming,
+.fa-key,
+.fa-location-dot {
     font-size: 1.7em;
 }
 
-.p-icon{
+.p-icon {
     padding: 0.25rem 0.25rem 0.75rem 0.75rem;
 }
 
@@ -175,34 +189,35 @@ align-items: center;
     max-width: 650px;
     margin: 20px 0px;
     color: black;
-  }
+}
 
-  .stto-and {
+.stto-and {
     top: 60px;
     margin-bottom: 20px;
-  }
+}
 
-  .and {
+.and {
     height: 1px;
     width: 50px;
     background-color: black;
     opacity: 0.5;
-  }
+}
 
-  .and-o {
+.and-o {
     height: 1px;
     width: 50px;
     background-color: black;
     opacity: 1;
-  }
+}
 
-  #firstblock {
+#firstblock {
     max-width: 65%;
-  }
+}
 
 
 #form {
     max-width: 35%;
+   
 }
 
 .a-link {
@@ -220,47 +235,50 @@ align-items: center;
     background-color: bisque;
 }
 
-.luoghi{
-    margin:20px
-  }
-  .luoghi a {
+.luoghi {
+    margin: 20px
+}
+
+.luoghi a {
     color: gray;
     text-decoration: none;
-  }
+}
 
-  .luoghi a span {
+.luoghi a span {
     color: black;
-  }
+}
 
-  .tap-link{
+.tap-link {
     color: black !important;
-  }
+}
 
-  #footer{
+#footer {
     margin-top: 40px;
     background-color: rgb(226, 225, 224);
-  }
+}
 
-  .footerClass{
+.footerClass {
     text-decoration: none;
     color: gray;
-  }
-  .footerClass span{
-    color: black;
-  }
+}
 
-  footer{
+.footerClass span {
+    color: black;
+}
+
+footer {
     padding: 10px;
 
-  }
-  footer a{
+}
+
+footer a {
     text-decoration: none;
     color: black;
-  }
+}
 
-  footer span{
+footer span {
     padding: 3px;
-  }
+}
 
 /*button main
 .btn-main {
@@ -274,4 +292,71 @@ align-items: center;
 #caro .carousel-control-next-icon {
     background-image: url(../img/right.svg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
