@@ -135,15 +135,15 @@
 
     </header>
   </div>
-  <main>
+  <main style="margin-top: 160px;">
 
 
-    <div class="container mt-5">
-      <h2><span>Casa con piscina ed aria condizionata</h2>
+    <div class="container">
+      <h2 class="pt-3">Casa con piscina ed aria condizionata</h2>
 
       <div class="row">
         <div class="col-6">
-          <img src="./assets/img/1.webp" alt="bnbplace" class="w-100 h-100" />
+          <img src="./assets/img/1.webp" alt="bnbplace" class="br-img w-100 h-100" />
         </div>
 
         <div class="col-6 row d-flex">
@@ -152,7 +152,7 @@
           </div>
 
           <div class="col-6 pb-4">
-            <img src="./assets/img/3.webp" alt="bnbplace" class="w-100 h-100" />
+            <img src="./assets/img/3.webp" alt="bnbplace" class="br-img-1 w-100 h-100" />
           </div>
 
           <div class="col-6">
@@ -160,7 +160,7 @@
           </div>
 
           <div class="col-6">
-            <img src="./assets/img/5.webp" alt="bnbplace" class="w-100 h-100" />
+            <img src="./assets/img/5.webp" alt="bnbplace" class="br-img-2 w-100 h-100" />
           </div>
         </div>
 
@@ -172,9 +172,9 @@
         <div class="border-bottom pt-3">
           <h3 class="pb-0 mb-0">Positano, Italia. Castello</h3>
           <ul class="d-flex list-unstyled p-0 m-0">
-            <li class="pe-1">6 ospiti</li>
-            <li class="pe-1">3 camere da letto</li>
-            <li>3 bagni</li>
+            <li class="pe-1">6 ospiti -</li>
+            <li class="pe-1"> 3 camere da letto -</li>
+            <li> 3 bagni</li>
           </ul>
           <ul class="d-flex list-unstyled p-0">
             <li class="pe-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -182,8 +182,8 @@
                 <path
                   d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
               </svg></li>
-            <li class="pe-1">5.0</li>
-            <li>6 recensioni</li>
+            <li class="pe-1">5.0 -</li>
+            <li> 6 recensioni</li>
           </ul>
         </div>
 
@@ -211,7 +211,7 @@
 
               <li class="ps-4">
                 <h4 class="pb-0 mb-0">Ottima posizione</h4>
-                <p class="mb-0">Il 100% degli ospiti recenti ha valutato la posizione con 5 stelle.</p>
+                <p class="mb-0 text-and">Il 100% degli ospiti recenti ha valutato la posizione con 5 stelle.</p>
               </li>
             </ul>
           </li>
@@ -224,7 +224,7 @@
 
               <li class="ps-3">
                 <h4 class="pb-0 mb-0">Ottima esperienza di check-in</h4>
-                <p class="mb-0">Il 100% degli ospiti ha valutato con 5 stelle la procedura di check-in.</p>
+                <p class="mb-0 text-and">Il 100% degli ospiti ha valutato con 5 stelle la procedura di check-in.</p>
               </li>
             </ul>
           </li>
@@ -236,7 +236,7 @@
 
               <li class="ps-2">
                 <h4 class="pb-0 mb-0">Tuffati</h4>
-                <p class="mb-0">Questo è uno dei pochi alloggi in zona dotati di piscina.</p>
+                <p class="mb-0 text-and">Questo è uno dei pochi alloggi in zona dotati di piscina.</p>
               </li>
             </ul>
           </li>
@@ -254,7 +254,7 @@
 
         <div class="border-bottom pt-2 pb-3 border-top">
           <h4 class="ps-2">Cosa troverai</h4>
-          <ul class="d-flex list-unstyled ps-2">
+          <ul class="d-flex flex-column flex-lg-row list-unstyled ps-2">
             <li class="pe-5">
               <ul class="list-unstyled">
                 <li><i class="fa-solid fa-umbrella-beach pe-1"></i>Vista sulla baia</li>
@@ -284,47 +284,59 @@
           <div id="calendar" class="ps-2"></div>
         </div>
       </div>
-      <div id="form" class="pe-3 pt-3">
-        <form class="position-sticky sticky-top stto-and" />
-        <div class="d-flex">
+      <div id="form" class="mt-3 px-lg-2 py-lg-2">
+        <form class="px-lg-4 py-lg-4 position-sticky sticky-top stto-and form-an">
+        <span class="fw-bold"> 175€ </span><span><small>  notte  </small></span>
+       
+        <div class="d-flex mt-4">
          
             
-          <input type="text" class="form-control" id="checkin-checkout" placeholder="Check-in 18-05-2024">
+          <input type="text" class="form-control and-form-1 position-relative top-0" id="checkin-checkout" placeholder="Check-in">
     
      
       
-          <input type="text" class="form-control" id="checkin-checkout" placeholder="Check-out 19-05-2024">
+          <input type="text" class="form-control and-form-2 position-relative" id="checkin-checkout" placeholder="Check-out">
      
       </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        
+          <select class="form-select and-form-3 mb-3" id="guests">
+            <option value="2">2 ospiti</option>
+            <option value="3">3 ospiti (1 bambino min13an, 2 adulti;)</option>
+            <option value="3">3 ospiti (3 adulti)</option>
+            <option value="3">4 ospiti (2 bambini min13an, 2 adulti;)</option>
+            <option value="3">4 ospiti (4 adulti)</option>
+            <option value="6">Family 5 pers</option>
+          </select>
+          <button type="button" class="mb-2 mt-2 btn w-100 btn-danger">Prenota</button>
+          <div id="bookingHelp" class="form-text">Non riceverai alcun addebito in questa fase</div>
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <ul class="d-flex flex-column px-0 mx-0">
+          <li class="d-flex justify-content-between"><a href="#" class="text-black">175 € x 5 notti</a><span>875€</span></li>
+          <li class="d-flex justify-content-between"><a href="#" class="text-black">Costi di pulizia</a><span>50€</span></li>
+          <li class="d-flex justify-content-between pb-3 border-bottom"><a href="#" class="text-black">Costo del servizio Airbnb</a><span>140€</span></li>
+          <li class="d-flex justify-content-between"><span class="fw-bold">Totale</span><span class="fw-bold">140€</span></li>
+        </ul>
         </form>
       </div>
     </div>
     <div class="container">
       <h4 class="text-center pt-4">Amato dagli ospiti</h4>
       <p class="text-center">Uno degli alloggi più amati su Airbnb in base a valutazioni, recensioni e affidabilità</p>
-      <ul class="d-flex list-unstyled justify-content-between border-bottom pb-4">
+      <ul class="d-none d-md-flex list-unstyled justify-content-lg-between border-bottom pb-4">
 
         <li>
           <p>Valutazione complessiva</p>
           <ul class="d-flex flex-column list-unstyled">
-            <li class="d-flex align-items-center">5<div class="and ps-5 pe-5 ms-2"></div>
+            <li class="d-flex align-items-center">5<div class="and ps-lg-5 pe-lg-5 ms-2"></div>
             </li>
-            <li class="d-flex align-items-center">4<div class="pe-5 and-o ps-5 ms-2"></div>
+            <li class="d-flex align-items-center">4<div class="pe-lg-5 and-o ps-lg-5 ms-2"></div>
             </li>
-            <li class="d-flex align-items-center">3<div class="pe-5 and ps-5 ms-2"></div>
+            <li class="d-flex align-items-center">3<div class="pe-lg-5 and ps-lg-5 ms-2"></div>
             </li>
-            <li class="d-flex align-items-center">2<div class="pe-5 and ps-5 ms-2"></div>
+            <li class="d-flex align-items-center">2<div class="pe-lg-5 and ps-lg-5 ms-2"></div>
             </li>
-            <li class="d-flex align-items-center">1<div class="pe-5 ps-5 ms-2 and"></div>
+            <li class="d-flex align-items-center">1<div class="pe-lg-5 ps-lg-5 ms-2 and"></div>
             </li>
           </ul>
         </li>
