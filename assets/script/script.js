@@ -112,3 +112,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   calendar.render();
 });
+
+
+flatpickr("#checkin-checkout", {
+  mode: "range",
+  dateFormat: "Y-m-d",
+  locale: "it",
+  minDate: "today"
+});

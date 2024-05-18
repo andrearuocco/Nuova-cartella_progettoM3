@@ -242,4 +242,16 @@ header.bg-white {
     padding: 3px;
   }
 
+/*button main
+.btn-main {
+    left: 25%;
+    top: 80%;
+    padding: 20px 40px;
+
+    max-width: 200px;
+}*/
+
+#caro .carousel-control-next-icon {
+    background-image: url(../img/right.svg);
+}
 
