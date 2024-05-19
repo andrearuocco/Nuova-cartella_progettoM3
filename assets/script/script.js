@@ -29,6 +29,27 @@ if (body.classList.contains('pagina-1')) {
   })
 }
 
+/* freccia carosello */
+// let carouselItems = document.querySelectorAll('#caro .carousel-item')
+// let carouselControllerLeft = document.querySelector('#caro .carousel-control-prev')
+// let carouselControllerRight = document.querySelector('#caro .carousel-control-next')
+
+
+
+// if(carouselItems[0].classList.contains('active')){
+//   carouselControllerLeft.classList.add('hidden')
+//   carouselControllerRight.classList.remove('hidden')
+
+// } else if(carouselItems[1].classList.contains('active')){
+//   carouselControllerLeft.classList.remove('hidden')
+//   carouselControllerRight.classList.remove('hidden')
+// } else {
+//   carouselControllerLeft.classList.remove('hidden')
+//   carouselControllerRight.classList.add('hidden')
+// }
+
+
+
 
 /* SCOMPARSA/COMPARSA CAROSELLI CON ANIMAZIONE */
 window.addEventListener('scroll', addSection) // aggiungo eventlistener sull'evento scroll 
@@ -64,49 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
         title: 'Full Booking',
         start: '2024-03-03',
         end: '2024-03-10'
-      },/*
-      {
-        title: 'Long Event',
-        start: '2024-03-07',
-        end: '2024-03-10'
-      },
-      {
-        groupId: '999',
-        title: 'Repeating Event',
-        start: '2024-03-09T16:00:00'
-      },
-      {
-        groupId: '999',
-        title: 'Repeating Event',
-        start: '2024-03-16T16:00:00'
-      },
-      {
-        title: 'Conference',
-        start: '2024-03-11',
-        end: '2024-03-13'
-      },
-      {
-        title: 'Meeting',
-        start: '2024-03-12T10:30:00',
-        end: '2024-03-12T12:30:00'
-      },
-      {
-        title: 'Lunch',
-        start: '2024-03-12T12:00:00'
-      },
-      {
-        title: 'Meeting',
-        start: '2024-03-12T14:30:00'
-      },
-      {
-        title: 'Birthday Party',
-        start: '2024-03-13T07:00:00'
-      },
-      {
-        title: 'Click for Google',
-        url: 'https://google.com/',
-        start: '2024-03-28'
-      }*/
+      }
     ]
   });
 
